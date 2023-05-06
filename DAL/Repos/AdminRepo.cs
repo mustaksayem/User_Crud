@@ -8,8 +8,16 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class AdminRepo : Repo, IRepo<Admin, string, Admin>
+    internal class AdminRepo : Repo, IRepo<Admin, string, Admin>, IAuth<bool>
     {
+        public bool Authenticate(string username, string password)
+        {
+            var data = db.Admins.FirstOrDefault(u => u.Aname.Equals(username) &&
+            u.AdminPassword.Equals(password));
+            if (data != null) return true;
+            return false;
+        }
+
         public Admin Create(Admin obj)
         {
             db.Admins.Add(obj);

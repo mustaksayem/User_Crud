@@ -15,5 +15,6 @@ namespace BLL.DTOs
         public string AdminName { get; set; }
         [Required]
         public string AdminPassword { get; set; }
+        public string Type { get; set; }
     }
 }

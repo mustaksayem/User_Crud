@@ -30,5 +30,13 @@ namespace DAL
             return new AdminRepo1();
         }
 
+        public static IAuth<bool> AuthData()
+        {
+            return new AdminRepo();
+        }
+        public static IRepo<AdminToken, string, AdminToken> AdminTokenData()
+        {
+            return new AdminTokenRepo();
+        }
     }
 }

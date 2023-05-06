@@ -14,3 +14,6 @@ C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.Migrations.in
 C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.Migrations.initDB1.resources
 C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.Migrations.initDB2.resources
+C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.Migrations.initDB3.resources
+C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.Migrations.initDB4.resources
+C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.Migrations.initDB5.resources

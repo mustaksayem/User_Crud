@@ -18,6 +18,9 @@ namespace DAL.Models
         [StringLength(20)]
         public string AdminPassword { get; set; }
 
+        [Required]
+        public string Type { get; set; }
+
         public virtual ICollection<HallStaff> Admins { get; set; }
 
         public Admin()
