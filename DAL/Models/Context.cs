@@ -16,5 +16,9 @@ namespace DAL.Models
 
         public DbSet<HallStaff> HallStaffs { get; set; }
         public DbSet<AdminToken> AdminTokens { get; set; }
+
+        public DbSet<Hall> Halls { get; set; }
+
+        public DbSet<Circular> Circulars { get; set; }
     }
 }

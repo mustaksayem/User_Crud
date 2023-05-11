@@ -38,5 +38,15 @@ namespace DAL
         {
             return new AdminTokenRepo();
         }
+
+        public static IRepo<Hall, string, Hall> HallData()
+        {
+            return new HallRepo();
+        }
+
+        public static IRepo<Circular, string, Circular> CircularData()
+        {
+            return new CircularRepo();
+        }
     }
 }

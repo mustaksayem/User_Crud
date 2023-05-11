@@ -76,3 +76,6 @@ C:\Users\Asus\source\repos\MovieTicketManagement\MovieTicketManagement\obj\Debug
 C:\Users\Asus\source\repos\MovieTicketManagement\MovieTicketManagement\obj\Debug\MovieTicketManagement.csproj.CopyComplete
 C:\Users\Asus\source\repos\MovieTicketManagement\MovieTicketManagement\obj\Debug\MovieTicketManagement.dll
 C:\Users\Asus\source\repos\MovieTicketManagement\MovieTicketManagement\obj\Debug\MovieTicketManagement.pdb
+C:\Users\Asus\source\repos\MovieTicketManagement\MovieTicketManagement\bin\System.Web.Cors.dll
+C:\Users\Asus\source\repos\MovieTicketManagement\MovieTicketManagement\bin\System.Web.Http.Cors.dll
+C:\Users\Asus\source\repos\MovieTicketManagement\MovieTicketManagement\bin\System.Web.Http.Cors.xml

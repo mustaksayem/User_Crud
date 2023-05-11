@@ -21,13 +21,20 @@ namespace DAL.Models
         [Required]
         public string Type { get; set; }
 
-        public virtual ICollection<HallStaff> Admins { get; set; }
+        public virtual ICollection<HallStaff> HallStaffs { get; set; }
+        public virtual ICollection<Hall> Halls { get; set; }
 
         public Admin()
         {
-            Admins = new List<HallStaff>();
+            HallStaffs = new List<HallStaff>();
+            Halls = new List<Hall>();
 
         }
+
+       
+         
+
+        
 
     }
 }

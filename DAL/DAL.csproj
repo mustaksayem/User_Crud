@@ -78,9 +78,23 @@
     <Compile Include="Migrations\202305060842397_initDB5.designer.cs">
       <DependentUpon>202305060842397_initDB5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305071248141_initDB6.cs" />
+    <Compile Include="Migrations\202305071248141_initDB6.designer.cs">
+      <DependentUpon>202305071248141_initDB6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305071936044_initDB7.cs" />
+    <Compile Include="Migrations\202305071936044_initDB7.designer.cs">
+      <DependentUpon>202305071936044_initDB7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305072108302_initDB8.cs" />
+    <Compile Include="Migrations\202305072108302_initDB8.designer.cs">
+      <DependentUpon>202305072108302_initDB8.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\Circular.cs" />
     <Compile Include="Models\Context.cs" />
+    <Compile Include="Models\Hall.cs" />
     <Compile Include="Models\HallStaff.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\MovieReview.cs" />
@@ -90,6 +104,8 @@
     <Compile Include="Repos\AdminRepo.cs" />
     <Compile Include="Repos\AdminRepo1.cs" />
     <Compile Include="Repos\AdminTokenRepo.cs" />
+    <Compile Include="Repos\CircularRepo.cs" />
+    <Compile Include="Repos\HallRepo.cs" />
     <Compile Include="Repos\HallStaffRepo.cs" />
     <Compile Include="Repos\MovieRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
@@ -117,6 +133,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305060842397_initDB5.resx">
       <DependentUpon>202305060842397_initDB5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305071248141_initDB6.resx">
+      <DependentUpon>202305071248141_initDB6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305071936044_initDB7.resx">
+      <DependentUpon>202305071936044_initDB7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305072108302_initDB8.resx">
+      <DependentUpon>202305072108302_initDB8.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
