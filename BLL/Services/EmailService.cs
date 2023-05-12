@@ -46,7 +46,7 @@ namespace BLL.Services
             }
             catch (Exception ex)
             {
-                // Handle any exceptions that may occur
+             
                 Console.WriteLine(ex.ToString());
 
                 return false;

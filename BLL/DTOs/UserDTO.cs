@@ -22,6 +22,8 @@ namespace BLL.DTOs
         public string UserGender { get; set; }
         [Required]
         public string UserPassword { get; set; }
+
+        public string Type { get; set; }
         [Required]
         public string MovieId { get; set; }
     }

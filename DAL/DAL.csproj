@@ -52,7 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
+    <Compile Include="Interfaces\IActiveUser.cs" />
     <Compile Include="Interfaces\IAuth.cs" />
+    <Compile Include="Interfaces\IBlockUser.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202304301707003_initDB.cs" />
     <Compile Include="Migrations\202304301707003_initDB.designer.cs">
@@ -90,6 +92,10 @@
     <Compile Include="Migrations\202305072108302_initDB8.designer.cs">
       <DependentUpon>202305072108302_initDB8.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305121511389_initDB9.cs" />
+    <Compile Include="Migrations\202305121511389_initDB9.designer.cs">
+      <DependentUpon>202305121511389_initDB9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Circular.cs" />
@@ -101,9 +107,11 @@
     <Compile Include="Models\AdminToken.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\ActiveUser.cs" />
     <Compile Include="Repos\AdminRepo.cs" />
     <Compile Include="Repos\AdminRepo1.cs" />
     <Compile Include="Repos\AdminTokenRepo.cs" />
+    <Compile Include="Repos\BlockUser.cs" />
     <Compile Include="Repos\CircularRepo.cs" />
     <Compile Include="Repos\HallRepo.cs" />
     <Compile Include="Repos\HallStaffRepo.cs" />
@@ -142,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305072108302_initDB8.resx">
       <DependentUpon>202305072108302_initDB8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305121511389_initDB9.resx">
+      <DependentUpon>202305121511389_initDB9.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

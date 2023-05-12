@@ -48,5 +48,14 @@ namespace DAL
         {
             return new CircularRepo();
         }
+        public static IBlockUser<User, string> BlockUsertData()
+        {
+            return new BlockUser();
+        }
+
+        public static IActiveUser<User, string> ActiveUsertData()
+        {
+            return new ActiveUser();
+        }
     }
 }

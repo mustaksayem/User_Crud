@@ -26,6 +26,8 @@ namespace DAL.Models
         [Required]
         [StringLength(20)]
         public string UserPassword { get; set; }
+        [Required]
+        public string Type { get; set; }
         [ForeignKey("Movie")]
         public string MovieId { get; set; }
 
