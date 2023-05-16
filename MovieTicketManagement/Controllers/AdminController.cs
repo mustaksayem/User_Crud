@@ -12,7 +12,7 @@ using System.Web.Http.Cors;
 namespace MovieTicketManagement.Controllers
 {
     [EnableCors("*", "*", "*")]
-    [AdminLogged]
+  //  [AdminLogged]
     public class AdminController : ApiController
     {
         

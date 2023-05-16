@@ -21,3 +21,5 @@ C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.Migrations.in
 C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.Migrations.initDB7.resources
 C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.Migrations.initDB8.resources
 C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.Migrations.initDB9.resources
+C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.Migrations.initDB10.resources
+C:\Users\Asus\source\repos\MovieTicketManagement\DAL\obj\Debug\DAL.Migrations.initDB11.resources

@@ -57,5 +57,11 @@ namespace DAL
         {
             return new ActiveUser();
         }
+
+        public static IRepo<Notice, int, Notice> NoticeDataAccess()
+        {
+            return new NoticeRepo();
+        }
+
     }
 }

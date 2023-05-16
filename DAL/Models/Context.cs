@@ -20,6 +20,6 @@ namespace DAL.Models
         public DbSet<Hall> Halls { get; set; }
 
         public DbSet<Circular> Circulars { get; set; }
-       
+        public DbSet<Notice> Notices { get; set; }
     }
 }
